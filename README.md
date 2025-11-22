@@ -1,12 +1,32 @@
-# React + Vite
+# React Basics – Components, Functions & Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of my React learning journey.  
+Here, I practiced the core concepts of React including:
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 What I Learned
 
-## Expanding the ESLint configuration
+### 🔹 1. React Components
+- Created **functional components**
+- Understood how components help in splitting UI into reusable parts
+- Practiced exporting and importing components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 2. Functions inside Components
+- Wrote functions to handle logic inside components
+- Called these functions from JSX
+- Understood how re-rendering happens when state changes (basic intro)
+
+### 🔹 3. Props (Properties)
+- Learned how to **send data from parent to child**
+- Passed multiple props like:
+  - Text
+  - Numbers
+  - Functions
+  - Custom messages
+
+### 🔹 4. Receiving Props in Child Component
+- Accessed props using the component parameter
+- Displayed props dynamically in JSX
+- Understood the concept:  
+  **Parent → Child = One-way data flow**
